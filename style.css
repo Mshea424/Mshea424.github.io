@@ -43,30 +43,63 @@ nav > a:hover {
     color: black;
 }
 .wrapper {
-    width: 100%
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space between;
-    padding: 60px 0;
-
 }
 .wrapper > main {
-    width: 70%;
+    width: 65%;
     margin: 0 30px 0 0;
+}
+.wrapper > main > article {
+    margin-top: 50px;
+    border-bottom: 1px solid rgba(125, 125, 125, .5);
+    padding-bottom: 15px;
 }
 .wrapper > main > article > h2 {
     color: red;
-    font-size: 25px;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 300;
 }
-.wrapper > main > article {
-    margin-bottom: 30px;
+.wrapper > main > article > p {
+    font-size: 15px;
+    line-height: 40px;
 }
 .wrapper > aside {
-    margin: 60px, 0 0 0;
-    width: 30%;
+    margin-top: 50px;
+    width: 35%;
+    padding: 30px 15px;
+    background-color: rgba(125, 125, 125, .2);
+}
+.wrapper > aside > section {
+    margin-bottom: 60px;
+}
+.wrapper > aside > section > h2 {
+    color: red;
+    font-size: 22px;
+    line-height: 33px;
+    
+}
+.wrapper > aside > section > p {
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.wrapper > aside > section > a.tele {
+    
+    font-size: 20px;
+    line-height: 40px;
+}
+.wrapper > aside > section > a.hyperl {
+    margin-top: 50px;
+    font-size: 17px;
+    line-height: 40px;
+    text-decoration: underline;
 }
 footer{
+    margin-top: 50px;
     text-align: center;
     color: gray;
 }
