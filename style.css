@@ -97,6 +97,7 @@ nav > a:hover {
     font-size: 17px;
     line-height: 40px;
     text-decoration: underline;
+    color: black;
 }
 footer{
     margin-top: 50px;
